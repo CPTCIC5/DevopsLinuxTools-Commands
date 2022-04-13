@@ -1,0 +1,21 @@
+git clone <url> == to check the git repo
+git status -- to get info if any file have issues/modified
+git add <filename>  == to add the file to github
+git commit -m "<commit message>" --> used to git
+git commit -am "<commit>" --> to push all changes/modifications
+
+git push --> takes changes of my pc n push to git repo
+git pull --> takes changes of git repo n pushes to  pc
+
+git log--> to see history of commits(in working branch)
+git reset --hard <commitid>  --> used to reverse changes
+
+(branching creates a seperate env,so when we commit
+it only takes changes of working branch,git branch to
+check branch)
+
+git branch --> used to see total branches,n working branch
+git checkout -b <branchname> -->creates new branch,activates it
+git checkout <branchname> --> to switch working branch
+git merge <branchaname>  --> branchname == the
+branch u wanna merge working branch with

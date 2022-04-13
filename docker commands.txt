@@ -1,0 +1,8 @@
+docker run  
+docker ps 
+docker ps --all
+docker create
+docker start
+docker stop
+docker kill
+echo "message"

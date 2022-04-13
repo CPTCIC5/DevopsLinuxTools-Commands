@@ -1,0 +1,26 @@
+NOTE:- JUST A FEATURE TO OPERATE VPS/ANOTHER/OUR BOUGHT LINUX DEVICE FROM OUR LOCAL DEVICE N FROM OUR LOCAL LOCATION.
+
+ssh root@your_server_ip
+ssh root@165.232.177.116
+
+
+cd --> to change dir
+pwd --> to see present working dir.
+ls --> to change dir
+cd ../ --> to reverse cd
+ls -lart --> to show hidden/system files.
+adduser (username) --> to create a non-root user
+usermod -aG sudo (username) -->  can be root n non-root both /pseudo
+
+ufw allow OpenSSH	 (use this 1st time so it open 1st/1 port)
+ufw enable
+
+sudo su --> to access as a sudo mod
+vim (filename.filextension) --> to open file
+
+:wq to save file in vim (if edited)
+:q to exit (if no edits)
+
+sudo htop(to c storage consumed by vps)
+
+echo "message" --> for printing purposes
