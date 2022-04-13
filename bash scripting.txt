@@ -3,3 +3,6 @@ IMPORTANT NOTE:- IT IS JUST A LINUX TERMINAL FEATURE SO IT WILL ALSO WORK IN A S
 which $SHELL - to ensure it's in the bash shell or not.
 vim <filename.sh>- to create bash file .sh is extension to create bash file.
 #!/bin/bash -- at starting of a bash file.
+
+bash <filename.sh> --> to see the result
+sleep <time> --> just a command in linux/bash same as time.sleep(time) in py
