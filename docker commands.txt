@@ -1,8 +1,35 @@
-docker run  
-docker ps 
+Summary : in short, docker is a container in which you can store all your setup files(related to your product) and can give it 
+to any of your client for  testing/deployment purpose.
+
+docker run <containername>/docker run -it <containername>
+docker ps /docker ps -a(for result)
 docker ps --all
 docker create
 docker start
 docker stop
 docker kill
 echo "message"
+
+docker exec -i -t <THEID> sh --> to run different commands under a pre-made container
+https://medium.com/swlh/docker-made-easy-part-i-ffcf03cb40eb
+
+docker -a to attach the output to the client terminal
+example:
+
+docker create hello-world
+OUTPUT-> <THEID>
+
+docker start -a <THEID>
+<RESULT/RUNNING CONTAINER>
+
+docker start <THEID>
+<STARTED (BUT NO RESULTANT)><THEID>
+
+
+docker -i -->to get into the command n run commands inside that particular instance of command thats executed just before current command. 
+docker -t -->for prettified output
+-----------------------------------------------------------------------------------------------------------------------------------------
+Using Dockerfile
+docker build . --> to build the docker file at the pwd.
+docker build -t <dockerusername>/<containername>:latest. --> command to ad
+docker commit -c 'CMD"<CMD(IN Dockerfile)>"'

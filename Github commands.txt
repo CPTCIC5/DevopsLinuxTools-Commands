@@ -18,4 +18,4 @@ git branch --> used to see total branches,n working branch
 git checkout -b <branchname> -->creates new branch,activates it
 git checkout <branchname> --> to switch working branch
 git merge <branchaname>  --> branchname == the
-branch u wanna merge working branch with
+branch u wanna merge working branch with.
