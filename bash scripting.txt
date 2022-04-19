@@ -1,7 +1,7 @@
 IMPORTANT NOTE:- IT IS JUST A LINUX TERMINAL FEATURE SO IT WILL ALSO WORK IN A SSH SAME AS IT'S GONNA WORK IN UBUNTU TERMINAL.
 
 which $SHELL - to ensure it's in the bash shell or not.
-vim <filename.sh>- to create bash file .sh is extension to create bash file.
+vim <filename.sh>- to create bash file .sh is extension to create bash file or open it.
 #!/bin/bash -- at starting of a bash file.
 
 bash <filename.sh> --> to see the result
