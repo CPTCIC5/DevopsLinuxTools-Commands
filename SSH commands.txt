@@ -3,10 +3,11 @@ NOTE:- JUST A FEATURE TO OPERATE VPS/ANOTHER/OUR BOUGHT LINUX DEVICE FROM OUR LO
 ssh root@your_server_ip
 ssh root@157.90.78.46
 
-
+mkdir --> to make dir
 cd --> to change dir
 pwd --> to see present working dir.
 ls --> to change dir
+mv <filename> ./<dir> --> to push dir into file.
 cd ../ --> to reverse cd
 ls -lart --> to show hidden/system files.
 adduser (username) --> to create a non-root user
