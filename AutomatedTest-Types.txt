@@ -1,0 +1,15 @@
+Automated Test-A piece of code which ensures other piece of code is working correctly under a certain condition.
+Why tests? :- 1.Easy refactoring 2.Ez upgradations 3.Higher application quality
+
+Unit Test:-
+1.Check only a snippet/unit of code so is independent of other pieces of code.
+2.Fastest to run.
+
+Integration test:-
+1.Test multiple pieces of code together  to ensure each are working in-handly togerther
+Example-Request response cycle (to ensure .html file rendering)
+
+Functional Test:-
+1.They check everything works fine from users pov (example-form validations)
+2.Slowest to run
+Example-Selinium Web driver

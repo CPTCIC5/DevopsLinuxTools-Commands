@@ -8,9 +8,18 @@ cd --> to change dir
 pwd --> to see present working dir.
 unlink <filename> / rm <filename> --> to del file 
 ls --> to change dir
-mv <filename> ./<dir> --> to push dir into file.
-cd ../ --> to reverse cd
+ls -l --> shows list of ls
+ls -la --> list of ls with hidden files
+mv <filename/dirname> <dir> --> to push dir into another dir/file.
+cd .. --> to reverse cd
 ls -lart --> to show hidden/system files.
+cat <name.extension> -->to view file/read mode
+wc -w --> to count len()
+
+pipes (|) :
+example:- ls | wc -w --> by using | we can run multiple commands 
+
+
 adduser (username) --> to create a non-root user
 usermod -aG sudo (username) -->  can be root n non-root both /pseudo
 

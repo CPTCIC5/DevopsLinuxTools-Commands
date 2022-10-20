@@ -1,13 +1,16 @@
 git clone <url> == to check the git repo
 git status -- to get info if any file have issues/modified
 git add <filename>  == to add the file to github
+git restore --staged <staged-file>
+
 git commit -m "<commit message>" --> used to git
 git commit -am "<commit>" --> to push all changes/modifications
 
 git push --> takes changes of my pc n push to git repo
 git pull --> takes changes of git repo n pushes to  pc
 
-git log--> to see history of commits(in working branch)
+git log--> detail of the change/to see history of commits(in working branch)
+git blame <filename> -- to see the point where the code is changed
 git reset --hard <commitid>  --> used to reverse changes
 
 (branching creates a seperate env,so when we commit
